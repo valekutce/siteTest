@@ -1,0 +1,191 @@
+/* Большой дисплей */
+@media (min-width: 1200px) { 
+    
+ }
+
+ @media (max-width: 1024px) { 
+
+ }
+
+ @media (max-width: 979px) { 
+    .header-top, .header-bottom nav {
+        justify-content: space-around;
+    }
+ }
+ @media (max-width: 800px) { 
+    .header-bottom-Logo {
+        width: 180px;
+    }
+ }
+
+/* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+ }
+
+/* От ландшафтного экрана телефона до потретного планшета */
+@media (max-width: 768px) { 
+    .burg {
+        display: block;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .mainBlock-title-button a {
+        padding: 9px 28px;
+    }
+    .whyChoose-block__title h2 {       
+        font-size: 37px;
+    }
+    .sectionIcon {
+        padding: 55px 8px 50px;
+    }
+    .footer-wrap {
+        justify-content: space-evenly;
+    }
+ }
+
+ @media (max-width: 667px) {
+    .mainBlock-title-button {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainBlock-title-button a:first-child {
+        margin-right: 0px;
+    }
+    .recentPosts-items {
+        justify-content: center;
+    }
+    .recentPosts-item {
+        width: 40%;
+    }
+    .whyChoose-block__title h2 {
+        font-size: 30px;
+    }
+    .sectionIcon-item {
+        width: 100%;
+    }
+    .hello-block:first-child {
+        margin-right: 90px;
+    }
+    .maps-form-form {
+        padding: 50px 30px 50px 40px;
+    }
+ }
+
+ @media (max-width: 540px) { 
+    .mainBlock-title {
+        padding: 40px 30px;
+    }
+    .burg {
+        right: 30px;
+    }
+    .mainBlock-title__wrap h1 {
+        font-size: 40px;
+    }
+    .whyChoose-block__title h2 {
+        font-size: 23px;
+    }
+    .hello-block:first-child {
+        margin-right: 20px;
+    }
+    .maps-form-form {
+        padding: 50px 20px 50px 20px;
+    }
+}
+
+@media (max-width: 425px) { 
+    .burg {
+        right: 32px;
+        z-index: 105;
+    }
+    .header-top {
+        justify-content: space-evenly; 
+    }
+    .mainBlock-title__wrap h1 {
+        font-size: 30px;
+    }
+    .mainBlock-title {
+        padding: 20px 20px;
+    }
+    .recentPosts-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .recentPosts-item {
+        width: 66%;
+    }
+    .whyChoose-wrap {
+        flex-direction: column;
+    }
+    .whyChoose-block {
+        width: 100%;
+    }
+    .whyChoose-block__title h2 {
+        font-size: 40px;
+    }
+    .hello-blocks {
+        flex-direction: column;
+    }
+    .maps-form-wrap {
+        flex-direction: column;
+    }
+    .maps-form-dlock {
+        width: 100%;
+    }
+    .footer-wrap {
+        flex-direction: column;
+    }
+    .footer-copy {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 375px) { 
+    .mabile-menu {
+        width: 360px; 
+    }
+    .header-top {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .mainBlock {
+        flex-direction: column;
+    }
+    .mainBlock-item {
+        width: 100%;
+    }
+    .mainBlock-title {
+        padding: 80px 55px;
+        order: 0;
+    }
+    .mainBlock-img {
+        order: 1;
+    }
+    .mainBlock-title__wrap h1 {
+        font-size: 46px;
+    }
+    .whyChoose-block__title {
+        padding-right: 35px;
+    }
+    .recentPosts-item {
+        width: 92%;
+    }
+}
+/* Landscape - телефоны */
+@media (max-width: 320px) { 
+    .mainBlock-title {
+        padding: 40px 25px;
+    }
+    .mabile-menu {
+        width: 300px;
+    }
+    .recentPosts-item {
+        width: 100%;
+    }
+    .whyChoose-block__title h2 {
+        font-size: 33px;
+    }
+}
+ 
+
+
